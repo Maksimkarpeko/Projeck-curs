@@ -74,7 +74,7 @@ function start() {
     }
 }
 
-// start();
+start();
 
 const personalMovieDB = {
     count :numberOfFilms,
@@ -101,7 +101,7 @@ function rememberMyFilms(){
     }
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 function detectPersonaLevel() {
     if (personalMovieDB.count < 10) {
@@ -115,7 +115,7 @@ function detectPersonaLevel() {
     }
 }
 
-// detectPersonaLevel()
+detectPersonaLevel()
 
 
 
